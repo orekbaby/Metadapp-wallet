@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* @apply border-none; */
+  }
+  body {
+    background: #101720;
+  }
+
+  main {
+    @apply text-[#E8E8E8];
+  }
+
+  button {
+    background-color: blue;
+    color: white;
+    margin-left: 20%;
+    position: relative;
+    left: 95px;
+  }
+
+  section {
+    @apply max-w-7xl my-8 px-6;
+  }
+
+  .bg-span {
+    align-items: center;
+    gap: 5px;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+    width: 100px;
+    height: 30px;
+  }
+
+  .div-width {
+    width: 30%;
+    padding: 6px;
+  }
+
+  .sec-btn {
+    @apply bg-[#212E40] py-2 rounded px-2;
+    @apply text-[#E8E8E8];
+  }
+
+  .buy-btn {
+    @apply bg-green-600;
+    @apply text-[#E8E8E8];
+  }
+
+  /* .h3-styles {
+    @apply gap-24 bg-[#161F2C] p-1 mt-12;
+  } */
+
+  .p-styles {
+    @apply gap-40 bg-[#161F2C] p-2;
+  }
+
+  
+
+  .wallets {
+    @apply gap-40 items-center my-4 justify-start;
+  }
+ 
+
+  .shank3 {
+    @apply flex items-center gap-14 w-[300px];
+  }
+  .buy-btn2 {
+    @apply py-2 px-4 bg-green-500 rounded w-[100];
+   
+  }
+  .button2 {
+    @apply py-1 px-1 bg-[#0D6EFD];
+  }
+ 
+  .bg-col {
+    @apply bg-[#161F2C];
+  }
+}
