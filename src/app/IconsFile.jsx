@@ -1,16 +1,7 @@
 import React from "react";
-import { FaBell, FaSettings, FaAddressBook, FaTimes, FaHome, FaCopy, FaNotification } from "react-icons/fa";
-
+import { FaBell,  FaTimes, FaHome, FaCopy, } from "react-icons/fa";
 function NotificationIcon() {
   return <FaBell />;
-}
-
-function SettingsIcon() {
-  return <FaSettings />;
-}
-
-function ContactIcon() {
-  return <FaAddressBook />;
 }
 
 function TimesIcon() {
@@ -28,4 +19,4 @@ function CopyIcon() {
 
 
 
-export { NotificationIcon, SettingsIcon, ContactIcon, CopyIcon, HomeIcon, TimesIcon };
+export { NotificationIcon, CopyIcon, HomeIcon, TimesIcon };

@@ -4,9 +4,8 @@ import accountBalance from "../../public/Images/account-balance.png";
 import vector from "../../public/Images/vector.png";
 import payments from "../../public/Images/payments.png";
 import message from "../../public/Images/message.png";
-import socket from "../../public/Images/socket.png";
 import settings from "../../public/Images/settings.png";
-import { TimesIcon, HomeIcon, CopyIcon, NotificationIcon } from "./IconsFile";
+import { TimesIcon, HomeIcon, } from "./IconsFile";
 import Image from "next/image";
 
 export default function Sidebar() {
@@ -16,10 +15,9 @@ export default function Sidebar() {
         width: "80px",
         height: "100vh",
         backgroundColor: "#0B0F16",
-        padding: "10px",
+        padding: "5px",
         margin: "0",
-       
-        flexShrink: 0,
+        flexShrink: "0",
       }}
     >
       <div className="flex flex-col gap-10 items-center justify-center mb-10">

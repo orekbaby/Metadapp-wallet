@@ -1,13 +1,8 @@
 import React from 'react'
 import metadappLogo from "../../public/Images/metadapplogo.png";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import Image from "next/image";
-import {
-  TimesIcon,
-  HomeIcon,
-  CopyIcon,
-  NotificationIcon,
-} from "./IconsFile";
+import {NotificationIcon} from "./IconsFile";
 
 export default function Navigation() {
   return (
@@ -30,7 +25,7 @@ export default function Navigation() {
         />
       </div>
       <div className="flex gap-2 items-center">
-        <div className="" style={{ marginRight: "24px" }}>
+        <div className="" style={{ marginRight: "24" }}>
           <NotificationIcon />
         </div>
         <div style={{ display: "flex", alignItems: "center" }}>

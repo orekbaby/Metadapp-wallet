@@ -7,14 +7,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* @apply border-none; */
   }
+
   body {
     background: #101720;
+    color: #e8e8e8; /* Setting text color for the whole body */
   }
 
   main {
-    @apply text-[#E8E8E8];
+    max-width: 100%;
   }
 
   button {
@@ -26,7 +27,9 @@
   }
 
   section {
-    @apply max-w-7xl my-8 px-6;
+    max-width: 100%;
+    margin: 8rem auto;
+    padding: 0 1.5rem;
   }
 
   .bg-span {
@@ -46,42 +49,52 @@
   }
 
   .sec-btn {
-    @apply bg-[#212E40] py-2 rounded px-2;
-    @apply text-[#E8E8E8];
+    background-color: #212e40;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    color: #e8e8e8;
   }
 
   .buy-btn {
-    @apply bg-green-600;
-    @apply text-[#E8E8E8];
+    background-color: #34d399;
+    color: #e8e8e8;
   }
-
-  /* .h3-styles {
-    @apply gap-24 bg-[#161F2C] p-1 mt-12;
-  } */
 
   .p-styles {
-    @apply gap-40 bg-[#161F2C] p-2;
+    gap: 40;
+    background-color: #161f2c;
+    padding: 2rem;
   }
-
-  
 
   .wallets {
-    @apply gap-40 items-center my-4 justify-start;
+    gap: 40;
+   align-items: center;
+    margin: 4rem 0;
+    justify-content: left;
   }
- 
 
   .shank3 {
-    @apply flex items-center gap-14 w-[300px];
+    display: flex;
+  align-items: center;
+    gap: 14;
+    width: 300px;
   }
+
   .buy-btn2 {
-    @apply py-2 px-4 bg-green-500 rounded w-[100];
-   
+    background-color: #34d399;
+    color: #e8e8e8;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    width: 100px;
   }
+
   .button2 {
-    @apply py-1 px-1 bg-[#0D6EFD];
+    background-color: #0d6efd;
+    color: #e8e8e8;
+    padding: 0.25rem 0.25rem;
   }
- 
+
   .bg-col {
-    @apply bg-[#161F2C];
+    background-color: #161f2c;
   }
 }

@@ -1,31 +1,13 @@
 import React from "react";
-import Image from "next/image";
-import metadappLogo from "../../public/Images/metadapplogo.png";
-import hoverText from "../../public/Images/Hovering Text 01.png"
-import accountBalance from "../../public/Images/account-balance.png";
-import vector from "../../public/Images/vector.png";
-import payments from "../../public/Images/payments.png";
-import message from "../../public/Images/message.png";
-import socket from "../../public/Images/socket.png";
-import settings from "../../public/Images/settings.png";
 import "./globals.css";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Button } from "@/components/ui/button";
-import { walletTokenTable } from "./MockData";
 import Navigation from "./Navigation";
 import Sidebar from "./Sidebar";
 import Table from "./Table";
-
-import {
-  TimesIcon,
-  HomeIcon,
-  CopyIcon,
-  NotificationIcon,
-} from "./IconsFile";
+import {TimesIcon,CopyIcon} from "./IconsFile";
 
 export default function Home() {
   return (
-    <main className="" style={{ margin: 0, padding: 0 }}>
+    <main className="" style={{ marginLeft: 0, padding: 0 }}>
       {/* navigation top */}
     <Navigation /> 
 
@@ -34,7 +16,7 @@ export default function Home() {
      <Sidebar />
 
         {/* main section for contents */}
-        <div style={{ flex: 1, padding: "15px" }}>
+        <div style={{ flex: 1, padding: "15" }}>
           <section>
             <h1 className="text-[27] leading-[35.1px] font-bold mb-5 ">
               My Wallet

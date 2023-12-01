@@ -1,6 +1,5 @@
 import React from 'react'
 import { walletTokenTable } from "./MockData";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Table() {
