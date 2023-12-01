@@ -1,7 +1,5 @@
 import React from 'react'
 import metadappLogo from "../../public/Images/Metadapplogo.png";
-import { Avatar, AvatarImage } from "@/src/components/ui/avatar";
-
 import Image from "next/image";
 import {NotificationIcon} from "./IconsFile";
 
@@ -30,10 +28,8 @@ export default function Navigation() {
           <NotificationIcon />
         </div>
         <div style={{ display: "flex", alignItems: "center" }}>
-          <Avatar>
-            <AvatarImage src="images/avatar.png" width={32} height={32}  />
-          </Avatar>
-        </div>
+          <Image src="/images/avatar.png" width={32} height={32}  />
+          </div>
       </div>
     </div>
   );

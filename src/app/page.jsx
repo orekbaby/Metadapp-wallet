@@ -9,11 +9,11 @@ export default function Home() {
   return (
     <main className="" style={{ marginLeft: 0, padding: 0 }}>
       {/* navigation top */}
-    <Navigation /> 
+      <Navigation />
 
       {/* sidebar */}
       <div className="flex max-w-7-xl mx-auto ">
-     <Sidebar />
+        <Sidebar />
 
         {/* main section for contents */}
         <div style={{ flex: 1, padding: "15" }}>
@@ -23,7 +23,7 @@ export default function Home() {
             </h1>
 
             {/* Wallet section */}
-            <div className="w-[500px] h-[150px] p-[10px] rounded-[8px] border-[1px] border-[#212E40]">
+            <div className="w-fit h-[150px] p-[10px] rounded-[8px] border-[1px] border-[#212E40]">
               <div className="flex items-center justify-between mb-2">
                 <div className="bg-span bg-[#063172] gap-6">
                   <span className="Weight 600 Size 14px Line height 23.8px  ">
@@ -33,8 +33,10 @@ export default function Home() {
                     <TimesIcon />
                   </div>
                 </div>
-                <p className="button2 rounded text-[14px] leading-[23.8px]">Create Wallet</p>
-               </div>
+                <p className="button2 rounded text-[14px] leading-[23.8px]">
+                  Create Wallet
+                </p>
+              </div>
               <div>
                 <h2
                   className="text-1xl font-bold font-family: Instrument Sans;
@@ -48,8 +50,8 @@ text-align: left;
                   Wallet Balance: $576.77
                 </h2>
               </div>
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
+              <div className="flex items-center justify-between w-full ">
+                <div className="flex">
                   <p
                     className="//styleName: Paragraph & Body/Body Normal;
 font-family: Instrument Sans;
@@ -62,9 +64,9 @@ text-align: left;
                   >
                     0xyrefghhfdsssdfghnnnnbvc21ftgygttyuhu
                   </p>
-                  <CopyIcon />
+                  <CopyIcon className="ml-3" />
                 </div>
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-3 mr-4">
                   <p className="sec-btn">Send</p>
                   <p className="sec-btn">Settings</p>
                 </div>
@@ -86,7 +88,7 @@ text-align: left;
               </div>
             </div>
             {/* Paragraph styles heading and table */}
-          <Table />
+            <Table />
           </section>
         </div>
       </div>
