@@ -1,7 +1,7 @@
 import React from 'react'
 import hoverText from "../../public/Images/Hovering Text 01.png";
 import accountBalance from "../../public/Images/account-balance.png";
-import vector from "../../public/Images/vector.png";
+import vector from "../../public/Images/Vector.png";
 import payments from "../../public/Images/payments.png";
 import message from "../../public/Images/message.png";
 import settings from "../../public/Images/settings.png";

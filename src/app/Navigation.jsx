@@ -1,6 +1,7 @@
 import React from 'react'
-import metadappLogo from "../../public/Images/metadapplogo.png";
-import { Avatar, AvatarImage } from "@/components/ui/avatar";
+import metadappLogo from "../../public/Images/Metadapplogo.png";
+import { Avatar, AvatarImage } from "@/src/components/ui/avatar";
+
 import Image from "next/image";
 import {NotificationIcon} from "./IconsFile";
 
