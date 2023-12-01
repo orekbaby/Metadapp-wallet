@@ -24,13 +24,13 @@ export default function Navigation() {
           height={64}
         />
       </div>
-      <div className="flex gap-2 items-center">
-        <div className="" style={{ marginRight: "24" }}>
+      <div className="flex gap-6 items-center">
+        <div className="" style={{ marginRight: "26" }}>
           <NotificationIcon />
         </div>
         <div style={{ display: "flex", alignItems: "center" }}>
           <Avatar>
-            <AvatarImage src="images/avatar.png" width={32} height={32} />
+            <AvatarImage src="images/avatar.png" width={32} height={32}  />
           </Avatar>
         </div>
       </div>
